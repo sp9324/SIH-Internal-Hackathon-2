@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles2.css">
+    <title>Monument Page</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+in head
+
+<div id="google_translate_element"></div>
+<script>
+        function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+    <div class="container">
+        <img src="../assets/Shamlaji-Temple-Banner.jpg" alt="Monument Image" class="monument-image">
+        <div class="monument-description">
+
+            <body>
+                <div class="waviy">
+                    <span style="--i:1">S</span>
+                    <span style="--i:2">h</span>
+                    <span style="--i:3">a</span>
+                    <span style="--i:5">m</span>
+                    <span style="--i:6">l</span>
+                    <span style="--i:9">a</span>
+                    <span style="--i:10">j</span>
+                    <span style="--i:10">i</span>
+                    <span>&nbsp &nbsp</span>
+                    <span style="--i:10">T</span>
+                    <span style="--i:10">e</span>
+                    <span style="--i:10">m</span>
+                    <span style="--i:10">p</span>
+                    <span style="--i:10">l</span>
+                    <span style="--i:10">e</span>
+                </div>
+                <div class="desc">Dandi Kutir is India’s largest & only museum built on the life and teachings of one
+                    man - Mahatma Gandhi. It represents Gandhi’s powerful idea of people across lines of class, gender,
+                    age, and community asserting their common right to salt itself: A symbol to inspire a pluralistic
+                    society to march towards independence - Purna Swaraj.
+                </div>
+            </body>
+            <div class="button-container">
+                
+                <!-- Button to Open Shamlaji Temple Location on Google Maps -->
+                <button onclick="openShamlajiTempleLocation()">Directions</button>
+                <button id="home-button">
+                    <a href="../homepage/index.html" id="home-button">Back to home</a>
+                </button>
+                <script>
+                    function openShamlajiTempleLocation() {
+                    // Define the Google Maps URL for Shamlaji Temple location
+                        var shamlajiTempleLocationURL = "https://www.google.com/maps/place/Shree+Shamlaji+Vishnu+Mandir/@23.6874864,73.3846726,17z/data=!4m10!1m2!2m1!1sShamlaji+Temple,+Shamlaji,+Gujarat,+India!3m6!1s0x395d8bec6906ba4d:0x57808063befa65cb!8m2!3d23.6877168!4d73.3872356!15sCilTaGFtbGFqaSBUZW1wbGUsIFNoYW1sYWppLCBHdWphcmF0LCBJbmRpYVooIiZzaGFtbGFqaSB0ZW1wbGUgc2hhbWxhamkgZ3VqYXJhdCBpbmRpYZIBDGhpbmR1X3RlbXBsZeABAA!16zL20vMDV0bXpu?entry=ttu";
+
+                    // Open the Google Maps link in a new tab
+                window.open(shamlajiTempleLocationURL, "_blank");
+                }
+                </script>
+                
+                <!-- Button to Open Shamlaji Temple Healthcare Location on Google Maps -->
+                <button onclick="ShamlajiTempleHealthcareLocation()">Healthcare</button>
+                <script>
+                    function ShamlajiTempleHealthcareLocation() {
+                         // Define the Google Maps URL for Dumas Beach location
+                            var ShamlajiTempleHealthcareLocationURL = "https://www.google.com/maps/place/PHC+Shamalaji/@23.6875228,73.3801809,17z/data=!3m1!4b1!4m6!3m5!1s0x395d8bed8a162911:0x947934dfd7b0a5a0!8m2!3d23.6875179!4d73.3827558!16s%2Fg%2F1tczyxrk?entry=ttu";
+
+                        // Open the Google Maps link in a new tab
+                window.open(ShamlajiTempleHealthcareLocationURL, "_blank");
+                    }
+                </script>
+                
+                <a href="https://www.makemytrip.com/hotels/hotel-listing/?checkin=09212023&checkout=09222023&locusId=CTBHI&locusType=city&city=CTBHI&country=IN&searchText=Shamlaji%20Temple%20Main%20Road%2C%20Rudardi%2C%20Gujarat%2C%20India&roomStayQualifier=2e0e&_uCurrency=INR&mmPoiTag=LPOI%7CShamlaji%20Temple%20Main%20Road%7C%7C23.6892922%7C73.387368&reference=hotel&type=google&rsc=1e2e0e" target="_blank">
+                    <button id="stay">Stay</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

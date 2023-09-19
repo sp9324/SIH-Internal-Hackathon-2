@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.carousel {
+    height: 500px;
+}
+
+.carousel .carousel-item {
+    width: 400px;
+
+
+}
+
+p {
+    align-items: center;
+
+}
+
+.heading {
+    text-align: center;
+    padding: 30px;
+    color: white;
+    text-shadow: 6px 6px 6px rgba(1, 1, 1, 1);
+}
+
+
+
+body {
+    background-image: url('../assets/Untitled-design.png');
+    /* Replace 'background.jpg' with the actual path to your background image */
+    background-size: cover;
+    /* This property scales the image to cover the entire body */
+    background-repeat: no-repeat;
+    /* Prevents the background image from repeating */
+    background-attachment: fixed;
+    /* Fixed background to prevent scrolling */
+    background-position: center center;
+    /* Centers the background image horizontally and vertically */
+
+}

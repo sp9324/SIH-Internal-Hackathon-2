@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles2.css">
+    <title>Monument Page</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+in head
+
+<div id="google_translate_element"></div>
+<script>
+        function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+    <div class="container">
+        <img src="../assets/Polo-Forest-Banner1 (1).jpg" alt="Monument Image" class="monument-image">
+        <div class="monument-description">
+
+            <body>
+                <div class="waviy">
+                    <span style="--i:1">P</span>
+                    <span style="--i:2">o</span>
+                    <span style="--i:3">l</span>
+                    <span style="--i:4">o</span>
+                    <span>&nbsp &nbsp</span>
+                    <span style="--i:5">F</span>
+                    <span style="--i:6">o</span>
+                    <span style="--i:7">r</span>
+                    <span style="--i:8">e</span>
+                    <span style="--i:9">s</span>
+                    <span style="--i:10">t</span>
+                </div>
+                <div class="desc">Tucked away in a forest, there are secrets to be revealed. An ancient city, a gateway to Rajasthan. A hiding place for rulers, concealed from enemies, citizens, angry wives, even from the sun, tucked between sacred hills on the east and west. And the mystery of abandonment, decay.
+                </div>
+            </body>
+            <div class="button-container">
+                
+                <!-- Button to Open Polo Forest Location on Google Maps -->
+                <button onclick="openPoloForestLocation()">Directions</button>
+                <button id="home-button">
+                    <a href="../homepage/index.html" id="home-button">Back to home</a>
+                </button>
+                <script>
+                    function openPoloForestLocation() {
+                    // Define the Google Maps URL for Polo Forest location
+                        var poloForestLocationURL = "https://www.google.com/maps/place/polo+forest+adventure+and+trekking/@23.982165,73.173666,13z/data=!4m10!1m2!2m1!1sPolo+Forest,+Vijaynagar,+Gujarat,+India!3m6!1s0x395d77037b7f8c75:0xe6ed629103f9b6ab!8m2!3d23.982168!4d73.2498887!15sCidQb2xvIEZvcmVzdCwgVmlqYXluYWdhciwgR3VqYXJhdCwgSW5kaWGSARBhZHZlbnR1cmVfc3BvcnRz4AEA!16s%2Fg%2F11jrcq6ks4?entry=ttu";
+
+                    // Open the Google Maps link in a new tab
+                window.open(poloForestLocationURL, "_blank");
+                }
+                </script>
+
+                
+                <!-- Button to Open Rani Ki Vav Healthcare Location on Google Maps -->
+                <button onclick="openPoloForestHealthcareLocation()">Healthcare</button>
+                <script>
+                    function openPoloForestHealthcareLocation() {
+                         // Define the Google Maps URL for Dumas Beach location
+                            var PoloForestHealthcareLocationURL = "https://www.google.com/maps/place/J+B+MULTISPECIALITY+HOSPITAL/@22.9429412,73.5649702,14.5z/data=!4m6!3m5!1s0x3960a3cd17516c25:0x26e2dce76a538f94!8m2!3d22.943147!4d73.5733389!16s%2Fg%2F11dxb8b23x?entry=ttu";
+
+                        // Open the Google Maps link in a new tab
+                window.open(PoloForestHealthcareLocationURL, "_blank");
+                    }
+                </script>
+                
+                <a href="https://www.makemytrip.com/hotels/hotel-listing/?checkin=09212023&checkout=09222023&locusId=CTVJNG&locusType=city&city=CTVJNG&country=IN&searchText=polo%20forest%20adventure%20and%20trekking%2C%20Vijayanagar%2C%20near%20polo%20retreat%20resort%2C%20Abhapur%2C%20Dholivav%2C%20Gujarat%2C%20India&roomStayQualifier=2e0e&_uCurrency=INR&mmPoiTag=LPOI%7Cpolo%20forest%20adventure%20and%20trekking%7C%7C23.982168%7C73.2498887&reference=hotel&type=google&rsc=1e2e0e" target="_blank">
+                    <button id="stay">Stay</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

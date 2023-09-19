@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles2.css">
+    <title>Monument Page</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+in head
+
+<div id="google_translate_element"></div>
+<script>
+        function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+    <div class="container">
+        <img src="../assets/Rani-Ki-Vav-Banner.jpg" alt="Monument Image" class="monument-image">
+        <div class="monument-description">
+
+            <body>
+                <div class="waviy">
+                    <span style="--i:1">R</span>
+                    <span style="--i:2">a</span>
+                    <span style="--i:3">n</span>
+                    <span style="--i:5">i</span>
+                    <span>&nbsp &nbsp</span>
+                    <span style="--i:6">K</span>
+                    <span style="--i:7">i</span>
+                    <span>&nbsp &nbsp</span>
+                    <span style="--i:8">V</span>
+                    <span style="--i:9">a</span>
+                    <span style="--i:10">v</span>
+                </div>
+                <div class="desc">Rani ki Vav, located in Patan, Gujarat, is a breathtaking stepwell that stands as a testament to India's rich architectural and artistic heritage. Built during the 11th century by Queen Udayamati in honor of her husband, King Bhimdev I, of the Solanki dynasty, this stepwell is a masterpiece of design and craftsmanship.
+
+                    The stepwell's distinguishing features include seven levels adorned with intricate sculptures, friezes, and geometric patterns that narrate mythological tales and showcase deities. It's not just a work of art; it also served a practical purpose as a water management system in an arid region, highlighting the fusion of aesthetics and functionality in Indian architecture.
+                    
+                    Recognized as a UNESCO World Heritage Site, Rani ki Vav provides a captivating journey through India's cultural past, offering visitors a chance to appreciate its artistic prowess, historical significance, and the ingenious engineering that sustained communities through centuries.
+                    
+                    
+                    
+                    
+                    
+                </div>
+            </body>
+            <div class="button-container">
+                <!-- Button to Open Rani ki Vav Location on Google Maps -->
+                <button onclick="openRaniKiVavLocation()">Directions</button>
+                <button id="home-button">
+                    <a href="../homepage/index.html" id="home-button">Back to home</a>
+                </button>
+                <script>
+                    function openRaniKiVavLocation() {
+                    // Define the Google Maps URL for Rani ki Vav location
+                        var raniKiVavLocationURL = "https://www.google.com/maps?q=Rani+ki+Vav,+Patan,+Gujarat,+India";
+
+                    // Open the Google Maps link in a new tab
+                window.open(raniKiVavLocationURL, "_blank");
+                }
+                </script>
+                
+                <!-- Button to Open Rani Ki Vav Healthcare Location on Google Maps -->
+                <button onclick="openRanikiVavHealthcareLocation()">Healthcare</button>
+                <script>
+                    function openRanikiVavHealthcareLocation() {
+                         // Define the Google Maps URL for Dumas Beach location
+                            var RanikiVavHealthcareLocationURL = "https://www.google.com/maps/place/GA+Saiyed+Hospital/@23.846777,72.1106141,17z/data=!3m1!4b1!4m6!3m5!1s0x395c873a8c0a95cb:0x801de92f1528b061!8m2!3d23.8467721!4d72.113189!16s%2Fg%2F11rv1mc_m5?entry=ttu";
+
+                        // Open the Google Maps link in a new tab
+                window.open(RanikiVavHealthcareLocationURL, "_blank");
+                    }
+                </script>
+                
+                <a href="https://www.makemytrip.com/hotels/hotel-listing/?checkin=09212023&city=CTPPN&mmPoiTag=POI%7CRani%20ki%20Vav%7CPOIRANIKI%7C23.85901%7C72.10197&checkout=09222023&roomStayQualifier=2e0e&locusId=CTPPN&country=IN&locusType=city&searchText=Rani%20ki%20Vav,%20Patan&regionNearByExp=3&rsc=1e2e0e" target="_blank">
+                    <button id="stay">Stay</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles2.css">
+    <title>Monument Page</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <div id="google_translate_element"></div>
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+    </script>
+    <div class="container">
+        <img src="../assets/dandi.jpg" alt="Monument Image" class="monument-image">
+        <div class="monument-description">
+
+            <body>
+                <div class="waviy">
+                    <span style="--i:1">D</span>
+                    <span style="--i:2">a</span>
+                    <span style="--i:3">n</span>
+                    <span style="--i:4">d</span>
+                    <span style="--i:5">i</span>
+                    <span>&nbsp &nbsp</span>
+                    <span style="--i:6">K</span>
+                    <span style="--i:7">u</span>
+                    <span style="--i:8">t</span>
+                    <span style="--i:9">i</span>
+                    <span style="--i:10">r</span>
+                    <span>&nbsp &nbsp</span>
+                    <span style="--i:11">M</span>
+                    <span style="--i:12">u</span>
+                    <span style="--i:13">s</span>
+                    <span style="--i:14">e</span>
+                    <span style="--i:15">u</span>
+                    <span style="--i:16">m</span>
+                </div>
+                <div class="desc">Dandi Kutir is India’s largest & only museum built on the life and teachings of one man - Mahatma Gandhi. It represents Gandhi’s powerful idea of people across lines of class, gender, age, and community asserting their common right to salt itself: A symbol to inspire a pluralistic society to march towards independence - Purna Swaraj.
+                </div>
+            </body>
+            <div class="button-container">
+                <!-- Button to Open Dandi Kutir Museum Location on Google Maps -->
+                <button onclick="openDandiKutirLocation()">Directions</button>
+                <script>
+                    function openDandiKutirLocation() {
+                         // Define the Google Maps URL for Dandi Kutir Museum location
+                            var dandiKutirLocationURL = "https://www.google.com/maps?q=Dandi+Kutir,+Gandhinagar,+Gujarat,+India";
+
+                        // Open the Google Maps link in a new tab
+                window.open(dandiKutirLocationURL, "_blank");
+                    }
+                </script>
+
+                <!-- Button to Open Dandi Kutir Museum Location on Google Maps -->
+                <button onclick="openDandiKutirCivilHospitalLocation()">Healthcare</button>
+                <script>
+                    function openDandiKutirCivilHospitalLocation() {
+                            // Define the Google Maps URL for Dandi Kutir Museum location
+                                var dandiKutirCivilHospitalLocationURL = "https://www.google.com/maps/place/GMERS+Civil+Hospital/@23.2180383,72.6379913,17z/data=!3m1!4b1!4m6!3m5!1s0x395c2bb7bcbba583:0x72c6b98cc8da1029!8m2!3d23.2180334!4d72.6405662!16s%2Fg%2F1wfvl1k7?entry=ttu";
+    
+                                // Open the Google Maps link in a new tab
+                    window.open(dandiKutirCivilHospitalLocationURL, "_blank");
+                        }
+                    </script>
+
+                <button id="home-button">
+                    <a href="../homepage/index.html" id="home-button">Back to home</a>
+                </button>
+                
+                <a href="https://www.makemytrip.com/hotels/hotel-listing/?checkin=09212023&checkout=09222023&locusId=CTXGR&locusType=city&city=CTXGR&country=IN&searchText=DANDI%20KUTIR%2C%20Sector%2013C%2C%20Sector%2013%2C%20Gandhinagar%2C%20Gujarat%2C%20India&roomStayQualifier=2e0e&_uCurrency=INR&mmPoiTag=LPOI%7CDANDI%20KUTIR%7C%7C23.2328758%7C72.63119379999999&reference=hotel&type=google&rsc=1e2e0e" target="_blank">
+                    <button id="stay">Stay</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles2.css">
+    <title>Monument Page</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+in head
+
+<div id="google_translate_element"></div>
+<script>
+        function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+    <div class="container">
+        <img src="../assets/Dumas-Beach-Banner.jpg" alt="Monument Image" class="monument-image">
+        <div class="monument-description">
+
+            <body>
+                <div class="waviy">
+                    <span style="--i:1">D</span>
+                    <span style="--i:2">u</span>
+                    <span style="--i:3">m</span>
+                    <span style="--i:4">a</span>
+                    <span style="--i:5">s</span>
+                    <span>&nbsp &nbsp</span>
+                    <span style="--i:6">B</span>
+                    <span style="--i:7">e</span>
+                    <span style="--i:8">a</span>
+                    <span style="--i:9">c</span>
+                    <span style="--i:10">h</span>
+                </div>
+                <div class="desc">Dumas Beach is a beach along the Arabian Sea on the west coast of Gujarat state in
+                    India. It is located 21 km southwest of Surat and 265 km from Ahmedabad. Dumas Beach is known for
+                    its black sand and is a popular tourist destination for its scenic beauty and peaceful
+                    atmosphere.You can also eat the traditional food items such as Pav Bhaji, Bhajiya, Gathiya and
+                    others.
+                </div>
+            </body>
+            <div class="button-container">
+                <!-- Button to Open Dumas Beach Location on Google Maps -->
+                <button onclick="openDumasBeachLocation()">Directions</button>
+                <button id="home-button">
+                    <a href="../homepage/index.html" id="home-button">Back to home</a>
+                </button>
+                <script>
+                    function openDumasBeachLocation() {
+                        // Define the Google Maps URL for Dumas Beach location
+                        var dumasBeachLocationURL = "https://www.google.com/maps?q=Dumas+Beach,+Sultanabad,+Surat,+Gujarat,+India";
+                    
+                        // Open the Google Maps link in a new tab
+                        window.open(dumasBeachLocationURL, "_blank");
+                    }
+                </script>
+                <!-- Button to Open Dumas Beach Location on Google Maps -->
+                <button onclick="openDumasBeachHealthcareLocation()">Healthcare</button>
+                <script>
+                    function openDumasBeachHealthcareLocation() {
+                         // Define the Google Maps URL for Dumas Beach location
+                            var dumasBeachLocationURL = "https://www.google.com/maps/place/SMC+Medical+Health+Centre/@21.0876454,72.7083485,16.09z/data=!4m14!1m7!3m6!1s0x3be1acd57035891b:0x2334c81ef8cf3f89!2sDumas+Civil+Center!8m2!3d21.0938753!4d72.7074079!16s%2Fg%2F11by_nwcp4!3m5!1s0x3be053919d30c483:0xfefe456b99fcec26!8m2!3d21.0897445!4d72.7118926!16s%2Fg%2F11h572ylzs?entry=ttu";
+
+                        // Open the Google Maps link in a new tab
+                window.open(dumasBeachLocationURL, "_blank");
+                    }
+                </script>
+                
+                <a href="https://www.makemytrip.com/hotels/hotel-listing/?checkin=09212023&city=CTSTV&mmPoiTag=POI%7CDumas%20Beach%7CPOI67130%7C21.0838%7C72.70935&checkout=09222023&roomStayQualifier=2e0e&locusId=CTSTV&country=IN&locusType=city&searchText=Dumas%20Beach&regionNearByExp=3&rsc=1e2e0e" target="_blank">
+                    <button id="stay">Stay</button>
+                </a>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
