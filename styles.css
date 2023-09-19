@@ -29,7 +29,7 @@ p {
 
 
 body {
-    background-image: url('../assets/Untitled-design.png');
+    background-image: url('./assets/Untitled-design.png');
     /* Replace 'background.jpg' with the actual path to your background image */
     background-size: cover;
     /* This property scales the image to cover the entire body */
