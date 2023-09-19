@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.desc {
+    font-family: 'Mooli', sans-serif;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+}
+
+/* Updated styles for the monument container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    /* Remove margin from top and sides */
+    background: url('your-pattern-image.jpg') repeat;
+    /* Replace 'your-pattern-image.jpg' with your pattern image path */
+}
+
+.monument-image {
+    width: 100%;
+    /* Make the image span the entire width of the container */
+    height: 510px;
+    margin-bottom: 40px;
+    /* Increase the space between the image and the buttons */
+}
+
+.monument-description {
+    background-color: #81a8d3;
+    padding: 37px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Updated styles for the buttons */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2cm;
+    padding-bottom: 30px;
+    /* Set the horizontal gap between buttons to 2cm */
+}
+
+/* Updated styles for the buttons to make them circles */
+button {
+    width: 136px;
+    height: 130px;
+    font-size: 18px;
+    background-color: #a6c7eb;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Mooli', sans-serif;
+    font-size: 20px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #98bee7;
+    transform: translateY(-14px);
+    box-shadow: 0px 12px 8px rgba(0, 0, 0, 0.197);
+}
+
+/* Updated background color for the entire page */
+body {
+    background-color: #b3d9ff;
+    /* Different shades of blue */
+}
+
+/* FONT */
+.waviy {
+    position: relative;
+}
+
+.waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 5s ;
+    animation-delay: calc(.5s * var(--i))
+}
+
+#home-button {
+    color: white;
+    text-decoration: none;
+}
+
+@keyframes flip {
+
+    0%,
+    80% {
+        transform: rotateY(360deg)
+    }
+}
