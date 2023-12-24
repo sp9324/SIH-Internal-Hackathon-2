@@ -1,15 +1,11 @@
 var simplemaps_countrymap_mapdata={
   main_settings: {
-
-     // General settings
-     width: 700, // Set the width to 400 pixels
-     height: 700, // Set the height to 400 pixels
-     background_color: "#FFFFFF",
-     background_transparent: "yes",
-     border_color: "#ffffff",
-
- 
-   
+   //General settings
+    width:  700, // Set the width to 500 pixels
+    height: 700,
+    background_color: "#FFFFFF",
+    background_transparent: "yes",
+    border_color: "#ffffff",
     
     //State defaults
     state_description: "State description",
@@ -110,11 +106,11 @@ var simplemaps_countrymap_mapdata={
       name: "Goa"
     },
     "12": {
-      name: "Gujarat"
+      name: "Gujarat",
+      url: "https://firepixie18.github.io/SIH-Internal-Hackathon-2/"
     },
     "13": {
-      name: "Haryana",
-      
+      name: "Haryana"
     },
     "14": {
       name: "Himachal Pradesh"
@@ -126,7 +122,8 @@ var simplemaps_countrymap_mapdata={
       name: "Karnataka"
     },
     "18": {
-      name: "Kerala"
+      name: "Kerala",
+      url: "https://www.keralatourism.org/"
     },
     "19": {
       name: "Lakshadweep"
@@ -159,7 +156,8 @@ var simplemaps_countrymap_mapdata={
       name: "Punjab"
     },
     "29": {
-      name: "Rajasthan"
+      name: "Rajasthan",
+      url: "https://www.tourism.rajasthan.gov.in/"
     },
     "30": {
       name: "Sikkim"
@@ -189,13 +187,7 @@ var simplemaps_countrymap_mapdata={
       name: "Ladakh"
     }
   },
-  locations: {
-    "0": {
-      lat: 18.987807,
-      lng: 72.836447,
-      name: "Mumbai"
-    }
-  },
+  locations: {},
   labels: {},
   legend: {
     entries: []
